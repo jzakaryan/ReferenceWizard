@@ -14,3 +14,10 @@ The main script is wizard.py. It receives path to the directory where your NuGet
 located as the first argument. The second argument is the path to the target sln file.
 
 `wizard.py C:\PathToYourNuGetLibSources C:\PathToYourTargetSlnFile`
+
+## Future plans
+
+A GUI wrapper for the tool is in the works. Also some enhancements are planned, including selection
+of libs that are to be replaced (currently it finds and replaces everything) and handling cases
+where there are multiple NuGet.config files in target solution folder, and different package cache
+paths are specified in thos configs.

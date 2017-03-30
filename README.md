@@ -7,3 +7,10 @@ that were reported during integration. This is a command-line tool that receives
 for libs that are published to NuGet, along with the path to the sln file where those libs are
 consumed. The tool attaches the lib projects to the solution, and then replaces lib references with
 project references.
+
+## How to use
+
+The main script is wizard.py. It receives path to the directory where your NuGet lib sources are
+located as the first argument. The second argument is the path to the target sln file.
+
+`wizard.py C:\PathToYourNuGetLibSources C:\PathToYourTargetSlnFile`

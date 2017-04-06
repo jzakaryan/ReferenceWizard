@@ -100,7 +100,7 @@ def replace_core_references(project_file):
                                                     assembly.project_file_name)
             project_reference_item_group.append(element)
             logger.log_info("Added project reference for {} in {}".format(
-                lib_name, project_file.name))
+                lib, project_file.name))
 
     # TODO Handle the case when there's no item group with project refs
     logger.log_info("Saving changes to {}".format(project_file.path))
